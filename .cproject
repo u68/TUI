@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.lapis_tech.lexide.managedbuilder.llvm.ui.config.release.579809285">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.lapis_tech.lexide.managedbuilder.llvm.ui.config.release.579809285" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.lapis_tech.lexide.core.OMF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.lapis_tech.lexide.core.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.lapis_tech.lexide.managedbuilder.ui.propertyLapis" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.lapis_tech.lexide.managedbuilder.ui.propertyLapis,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -f" description="" errorParsers="com.lapis_tech.lexide.core.errorparser;org.eclipse.cdt.core.GmakeErrorParser" id="com.lapis_tech.lexide.managedbuilder.llvm.ui.config.release.579809285" name="Release" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.dockerdpath=,org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=" parent="com.lapis_tech.lexide.managedbuilder.llvm.ui.config.release">
+					<folderInfo id="com.lapis_tech.lexide.managedbuilder.llvm.ui.config.release.579809285." name="/" resourcePath="">
+						<toolChain id="com.lapis_tech.lexide.managedbuilder.llvm.ui.toolchain.u8u16.release.976952514" name="U8/U16 LLVM Toolchain (LAPIS OMF)" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.toolchain.u8u16.release">
+							<targetPlatform archList="all" binaryParser="com.lapis_tech.lexide.core.OMF" id="com.lapis_tech.lexide.managedbuilder.llvm.ui.platform.lapis.1920593883" isAbstract="false" name="LAPIS Target Platform (LLVM)" osList="all" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.platform.lapis"/>
+							<builder buildPath="${workspace_loc:/tui}/Release" id="com.lapis_tech.lexide.managedbuilder.llvm.ui.builder.make.1745708773" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Builder (LAPIS) (LLVM)" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.builder.make"/>
+							<tool id="com.lapis_tech.lexide.managedbuilder.llvm.ui.tool.common.653756290" name="Common" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.tool.common">
+								<option id="com.lapis_tech.lexide.managedbuilder.llvm.ui.common.data.1422719648" name="Data access" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.common.data" value="com.lapis_tech.lexide.managedbuilder.ui.comp.data.far" valueType="enumerated"/>
+								<option id="com.lapis_tech.lexide.managedbuilder.ui.load.pfo.1665181491" name="Specify load program file option" superClass="com.lapis_tech.lexide.managedbuilder.ui.load.pfo" value="false" valueType="boolean"/>
+								<option id="com.lapis_tech.lexide.managedbuilder.ui.target.ice.549242252" name="Target ICE" superClass="com.lapis_tech.lexide.managedbuilder.ui.target.ice" value="com.lapis_tech.lexide.managedbuilder.ui.target.ice.sim" valueType="enumerated"/>
+							</tool>
+							<tool id="com.lapis_tech.lexide.managedbuilder.llvm.ui.tool.compiler.1221566668" name="Compiler" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.tool.compiler">
+								<option id="com.lapis_tech.lexide.managedbuilder.llvm.ui.comp.charisunsigned.2038590742" name="Char is unsigned" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.comp.charisunsigned" value="true" valueType="boolean"/>
+								<option id="com.lapis_tech.lexide.managedbuilder.llvm.ui.comp.optimizationlevel.2022776589" name="Optimization Level" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.comp.optimizationlevel" value="com.lapis_tech.lexide.managedbuilder.llvm.ui.comp.optimizationlevel.3" valueType="enumerated"/>
+								<option id="com.lapis_tech.lexide.managedbuilder.llvm.ui.comp.generatedebuginfo.752434278" name="Generate source-level debug information" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.comp.generatedebuginfo" value="true" valueType="boolean"/>
+								<option id="com.lapis_tech.lexide.managedbuilder.llvm.ui.comp.optimizelinkedfile.1131261176" name="Optimize linked file" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.comp.optimizelinkedfile" value="false" valueType="boolean"/>
+								<inputType id="com.lapis_tech.lexide.managedbuilder.llvm.ui.comp.inputtype.unusellvmlink.1408884196" name="Compiler Input - unuse llvm-link" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.comp.inputtype.unusellvmlink"/>
+							</tool>
+							<tool id="com.lapis_tech.lexide.managedbuilder.llvm.ui.tool.assembler.2039597815" name="Assembler" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.tool.assembler">
+								<option id="com.lapis_tech.lexide.managedbuilder.ui.asm.warns.1615839665" name="Check SFR access attributes" superClass="com.lapis_tech.lexide.managedbuilder.ui.asm.warns" value="false" valueType="boolean"/>
+								<inputType id="com.lapis_tech.lexide.managedbuilder.ui.asm.inputtype.1693025006" name="ASM input" superClass="com.lapis_tech.lexide.managedbuilder.ui.asm.inputtype"/>
+							</tool>
+							<tool id="com.lapis_tech.lexide.managedbuilder.llvm.ui.tool.linker.870398211" name="Linker" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.tool.linker">
+								<inputType id="com.lapis_tech.lexide.managedbuilder.ui.link.inputtype.1125030518" name="Linker Input" superClass="com.lapis_tech.lexide.managedbuilder.ui.link.inputtype"/>
+							</tool>
+							<tool id="com.lapis_tech.lexide.managedbuilder.llvm.ui.tool.objconverter.342693393" name="Object converter" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.tool.objconverter">
+								<option id="com.lapis_tech.lexide.managedbuilder.ui.cnv.genhex.1762629518" name="Generate HEX file" superClass="com.lapis_tech.lexide.managedbuilder.ui.cnv.genhex" value="true" valueType="boolean"/>
+								<option id="com.lapis_tech.lexide.managedbuilder.ui.cnv.output.424633792" name="Output" superClass="com.lapis_tech.lexide.managedbuilder.ui.cnv.output" value="com.lapis_tech.lexide.managedbuilder.ui.cnv.output.int" valueType="enumerated"/>
+							</tool>
+							<tool id="com.lapis_tech.lexide.managedbuilder.llvm.ui.tool.romgenerator.1730579641" name="HEX Converter" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.tool.romgenerator">
+								<option id="com.lapis_tech.lexide.managedbuilder.ui.romgen.option.478457086" name="Apply options to HTU8 GUI (External tool)" superClass="com.lapis_tech.lexide.managedbuilder.ui.romgen.option" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.lapis_tech.lexide.managedbuilder.llvm.ui.tool.stackcalculator.440998889" name="Stack Calculator" superClass="com.lapis_tech.lexide.managedbuilder.llvm.ui.tool.stackcalculator"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="tui.com.lapis_tech.lexide.managedbuilder.llvm.ui.prjtype.lapis.exe.1945739509" name="Executable (LAPIS)" projectType="com.lapis_tech.lexide.managedbuilder.llvm.ui.prjtype.lapis.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+		<project-mappings>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cHeader" language="com.lapis_tech.lexide.parser.ccu8"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cSource" language="com.lapis_tech.lexide.parser.ccu8"/>
+		</project-mappings>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/tui"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
